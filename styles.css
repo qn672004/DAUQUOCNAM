@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #343541;
+    display: flex;
+}
+*{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 200px 0;
+}
+.side-bar {
+    background-color: #202123 ;
+    width: 244px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+.bottom-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    padding: 10px;
+}
+input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.05) 0 54px 55px,
+    rgba(0,0,0,0.05) 0 -12px 30px,
+    rgba(0,0,0,0.05) 0 4px 6px,
+    rgba(0,0,0,0.05) 0 12px 3px,
+    rgba(0,0,0,0.09) 0 -3px 5px,
+
+}
+input:focus {
+    outline: none;
+}
+.input-container{
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+.input-container #submit {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
+
+}
+button{
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+
+}
+.history {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+.history p{
+    cursor: pointer;
+}@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+}
+*{
+    color: #dbd7d7;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 200px 0;
+}
+.side-bar {
+    background-color: #202123 ;
+    width: 244px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+.bottom-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    color: rgba(217,217,227,.8);
+    font-size: 11px;
+    padding: 10px;
+}
+input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.05) 0 54px 55px,
+    rgba(0,0,0,0.05) 0 -12px 30px,
+    rgba(0,0,0,0.05) 0 4px 6px,
+    rgba(0,0,0,0.05) 0 12px 3px,
+    rgba(0,0,0,0.09) 0 -3px 5px
+
+}
+input:focus {
+    outline: none;
+}
+.input-container{
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+.input-container #submit {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
+
+}
+button{
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+
+}
+.history {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+.history p{
+    cursor: pointer;
+}
+/* hoppj thoại chat */
+body{
+    /* display: inline-block; */
+    margin: auto;
+    /* padding: auto; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-chatgpt{
+    display: inline-block;
+    margin: 0 auto;
+    /* padding: auto; */
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.d-flex{
+    display: flex;
+}
+/* card */
+.card {
+   margin: 15px;
+    /* max-width: 60%; */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #181717;
+   
+}
+
+.card-button{
+    background-color:rgb(233, 233, 233);
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 85px;
+    /* display: inline; */
+}
+.card_body-button1{
+    background-color:rgb(255, 255, 255);
+    padding: 8px 40px;
+    /* width: 150px; */
+}
